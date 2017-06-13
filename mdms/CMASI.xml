@@ -467,7 +467,15 @@
             <Field Name="Required" Type="bool" Default="true"/>
             
         </Struct>
-        
+<!--         <Struct Name="VipEscortTask" Extends="Task">
+            
+            <Field Name="VIP" Type="int64" Default="1" />
+            
+            <Field Name="UAV1" Type="int64" Default="2" />
+            
+            <Field Name="UAV2" Type="int64" Default="" />
+            
+        </Struct>    -->     
         <!-- Used to request a search task allocation from the automation service. -->
         <Struct Name="SearchTask" Extends="Task">
             
